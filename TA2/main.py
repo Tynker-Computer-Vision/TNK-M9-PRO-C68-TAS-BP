@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# Trajectory arrayCords
+# Trajectory array Coords
 
 
 tracker = cv2.legacy.TrackerCSRT_create()
@@ -36,12 +36,13 @@ def drawBox(img, bbox):
 
 
 # Define the function to track the goal
-
+def goalTrack(img, bbox):
+    pass
 
     # Get the CENTER Points of the Bounding Box
     
     
-    # Append the center points c1 and c2 to xCords and yCords respectively
+    # Append the center points c1 and c2 to xCoords and yCoords respectively
    
 
     # Draw the circles for the previous center points
